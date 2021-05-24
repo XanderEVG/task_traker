@@ -1,0 +1,17 @@
+version: '3.1'
+
+services:
+
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: task_traker_user
+      POSTGRES_PASSWORD: arqwgzfd%dhssdv
+      POSTGRES_DB: task_traker
+    ports:
+      - 5440:5432
+
+volumes:
+  data01:
+    driver: local
