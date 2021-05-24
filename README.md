@@ -29,7 +29,7 @@
 
 
 ## Запуск проекта
- - Перед запуском нужно установить PHP7.4+, Composer, docker, docker-compose, symfony(https://symfony.com/download)
+ - Перед запуском нужно установить PHP7.4+, Composer, docker, docker-compose, symfony(https://symfony.com/download), git
  - Запускаем контейнер (с PostgreSQL) `sudo docker-compose up`
  - Устанавливаем пакеты `composer install`
  - Настойка аутентификации
